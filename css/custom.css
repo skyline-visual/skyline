@@ -1,0 +1,176 @@
+h1, h2, h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #1e3f3b;
+}
+
+#site-header {
+    margin-bottom: 100px;
+}
+
+.woocommerce-products-header, .woocommerce-result-count, .woocommerce-notices-wrapper, .woocommerce-ordering, .woocommerce-billing-fields > h3,
+.woocommerce-privacy-policy-text, .page-header > .entry-title, .woocommerce .woocommerce-breadcrumb, .product_meta, .woocommerce-tabs {
+    display: none !important;
+}
+
+#site-header img {
+    height: 70px;
+    margin: auto;
+}
+
+.site-branding {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.woocommerce ul.products {
+    display: block !important;
+    text-align: center !important;
+}
+
+    .woocommerce ul.products li {
+        float: none !important;
+        display: inline-block !important;
+        margin: 0 auto !important;
+    }
+
+        .woocommerce ul.products li.product a img, .woocommerce-product-gallery__wrapper > div {
+            border: 1px solid #2bcbd7;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .woocommerce ul.products li.product .woocommerce-loop-product__title {
+            color: #1e3f3b;
+        }
+
+.woocommerce-Price-amount bdi {
+    color: #00919b;
+    font-size: 20px;
+}
+
+.woocommerce ul.products li.product .button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce button.button.alt, .woocommerce a.button {
+    background: #1e3f3b;
+    color: #FFF !important;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+    .woocommerce ul.products li.product .button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce button.button.alt:hover, .woocommerce a.button:hover {
+        background: #009ca8;
+    }
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    float: none;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding: 80px 30px 30px 30px;
+    color: #1e3f3b;
+    font-weight: 500;
+}
+
+    footer a {
+        color: #009ca8;
+    }
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: none !important;
+    width: auto !important;
+}
+
+input[type=text], input[type=email] {
+    border: 1px solid #ccc;
+}
+
+.woocommerce-checkout #payment {
+    background: #f0f0f0 !important;
+}
+
+    .woocommerce-checkout #payment div.payment_box {
+        background-color: #e1e5e5 !important;
+    }
+
+        .woocommerce-checkout #payment div.payment_box::before {
+            border: 1em solid #e1e5e5 !important;
+            border-right-color: transparent !important;
+            border-left-color: transparent !important;
+            border-top-color: transparent !important;
+        }
+
+.payment_method_boxcoin label {
+    font-weight: 500;
+}
+
+.woocommerce form .form-row label {
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.woocommerce form .place-order, .return-to-shop {
+    text-align: center;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    float: none !important;
+    margin: auto !important;
+}
+
+.page-content .bxc-main, .woocommerce a.button {
+    margin: auto !important;
+}
+
+.woocommerce-info {
+    border-top-color: #2bcbd7;
+    text-align: center;
+}
+
+    .woocommerce-info::before {
+        color: #1e3f3b;
+    }
+
+.entry-summary {
+    float: left !important;
+    padding-left: 50px;
+}
+
+.woocommerce div.product div.images.woocommerce-product-gallery {
+    max-width: 200px;
+}
+
+.product_title {
+    text-align: left !important;
+}
+
+.woocommerce div.product {
+    clear: both;
+    max-width: 500px;
+    height: 220px;
+    margin: auto;
+}
+
+    .woocommerce div.product div.summary {
+        width: 52%;
+    }
+
+.woocommerce .quantity .qty {
+    height: 37px;
+}
+
+@media (max-width: 768px) {
+    .woocommerce div.product div.images.woocommerce-product-gallery, .woocommerce div.product div.summary, .woocommerce div.product {
+        float: none !important;
+        max-width: none !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
